@@ -3,6 +3,7 @@ image: docker:///yolo/orcadev#centos6
 inputs:
   - name: bin_orca_centos6_release
   - name: bin_gpos_centos6_release
+  - name: bin_xerces_centos6
   - name: gpdb_src
 outputs:
 run:
@@ -10,3 +11,4 @@ run:
   args:
     - bin_orca_centos6_release
     - bin_gpos_centos6_release
+    - bin_xerces_centos6
